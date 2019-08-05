@@ -1,6 +1,7 @@
-var name="john"
-var age=23
-console.log(name,age)
+var john={
+    name:"john",
+    address:"nyk",
+    favSpot:"football",
+}
 
-var {nameA, nameB} ={"harikrishnan","sreesankar"}
-console.log(nameA,nameB)
+console.log(john)
