@@ -40,3 +40,7 @@ const getCookie = (key) => {
 }
 
 console.log(getCookie("name"))
+
+/**
+ * To delete any cookie set an expiry time of any past time.
+ */
