@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../VS Code workspaces"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Visual Studio Light",
+		"liveServer.settings.multiRootWorkspaceName": "javascript-learning"
+	}
+}
