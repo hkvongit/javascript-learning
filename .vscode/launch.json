@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "runTest",
       "args": [],
-      "program": "${workspaceFolder}/random/learning-call-stack.js"
+      "program": "${workspaceFolder}/problem-solving-patterns/recursion/recursiveRange.test.js"
     }
   ]
 }
