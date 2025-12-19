@@ -7,9 +7,23 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "runTest",
+      "name": "runSample",
+      "args": [],
+      "program": "${workspaceFolder}/sample.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "recursive Range",
       "args": [],
       "program": "${workspaceFolder}/problem-solving-patterns/recursion/recursiveRange.test.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "current-file",
+      "args": [],
+      "program": "${workspaceFolder}/problem-solving-patterns/sorting/merge-sort.js"
     }
   ]
 }
