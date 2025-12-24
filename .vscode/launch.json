@@ -23,7 +23,7 @@
       "request": "launch",
       "name": "current-file",
       "args": [],
-      "program": "${workspaceFolder}/problem-solving-patterns/sorting/merge-sort.js"
+      "program": "${workspaceFolder}/Data-structure/single-linked-list.js"
     }
   ]
 }

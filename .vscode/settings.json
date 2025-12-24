@@ -6,6 +6,7 @@
     "source.fixAll": "explicit",
     "source.fixAll.eslint": "explicit"
   },
-  "eslint.validate": ["javascript"]
+  "eslint.validate": ["javascript"],
+  "livePreview.defaultPreviewPath": "/main.html"
   //
 }
