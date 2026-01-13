@@ -23,7 +23,7 @@
       "request": "launch",
       "name": "current-file",
       "args": [],
-      "program": "${workspaceFolder}/Data-structure/single-linked-list.js"
+      "program": "${workspaceFolder}/stack-and-queue/postfix--reverse-polish-notation.test.js"
     }
   ]
 }
