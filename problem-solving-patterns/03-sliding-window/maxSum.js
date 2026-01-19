@@ -14,10 +14,10 @@ function maxSumSol1(arr, pairElementCount) {
   let max = 0;
   let sumArray = [];
   // loop through the array till the first element of last pair
-  for (i = 0; i < arrLength - pairElementCount + 1; i++) {
+  for (let i = 0; i < arrLength - pairElementCount + 1; i++) {
     let sum = arr[i];
     // inner loop to take the sum of the bundle (pairs)
-    for (j = i + 1; j < i + pairElementCount; j++) {
+    for (let j = i + 1; j < i + pairElementCount; j++) {
       sum += arr[j];
     }
     sumArray.push(sum);

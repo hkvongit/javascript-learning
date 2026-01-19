@@ -3,3 +3,10 @@
 ```bash
 node --test ./sample.test.js
 ```
+---
+
+## Install es-lint for finding errors
+
+```bash
+eslint --init
+```

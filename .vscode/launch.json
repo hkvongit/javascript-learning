@@ -24,6 +24,13 @@
       "name": "current-file",
       "args": [],
       "program": "${workspaceFolder}/stack-and-queue/postfix--reverse-polish-notation.test.js"
-    }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "runAnyCodeFile",
+      "args": [],
+      "program": "${workspaceFolder}/any-test-code.js"
+    },
   ]
 }

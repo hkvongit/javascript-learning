@@ -1,5 +1,10 @@
 // source: https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/lecture/9816152#overview
 
+/*
+PROBLEM STATEMENT:
+  Write a function called main, which accepts two arrays. The function should return true if every value in the array has it's corresponding value squared in the second array. The frequency of values must be the same.
+*/
+
 const generateFreqObj = (arr) => {
   freqObj = {};
   for (const element of arr) {
@@ -28,8 +33,8 @@ const main = (arr1, arr2) => {
   return true;
 };
 
-arrA1 = [1, 2, 2, 4, 5];
-arrA2 = [4, 4, 16, 1, 9];
+arrA1 = [1, 2, 2, 4, 5, 5];
+arrA2 = [1, 4, 4, 25, 16, 25];
 if (main(arrA1, arrA2)) {
   console.log("YuP");
 } else {

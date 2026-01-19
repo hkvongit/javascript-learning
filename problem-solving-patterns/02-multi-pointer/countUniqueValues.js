@@ -10,7 +10,6 @@ countUniqueValues([-2,-1,-1,0,1]) // 4
 function countUniqueValues(arr) {
   let counter1 = 0;
   let counter2 = 1;
-  debugger;
   const arrayLength = arr.length;
   while (counter2 < arrayLength) {
     if (arr[counter1] !== arr[counter2]) {
