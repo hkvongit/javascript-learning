@@ -10,3 +10,9 @@ node --test ./sample.test.js
 ```bash
 eslint --init
 ```
+
+## Running typescript code
+
+```bash
+node --import tsx --test src/helpers/datetime-helpers.test.ts
+```

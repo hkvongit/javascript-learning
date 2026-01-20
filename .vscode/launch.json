@@ -23,7 +23,7 @@
       "request": "launch",
       "name": "current-file",
       "args": [],
-      "program": "${workspaceFolder}/stack-and-queue/postfix--reverse-polish-notation.test.js"
+      "program": "${workspaceFolder}/leetcode/two-sums/two-sum-2.js"
     },
     {
       "type": "node",
