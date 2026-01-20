@@ -43,7 +43,7 @@ function sortFn(_left, _right) {
     }
   }
 
-  // there can be leftovers on any one of  arrays after the above iteration, add those leftovers (if any) to the resultant array
+  // there can be leftovers on any one of  arrays after the above iteration, add those leftovers (if any) to the resultant array, as the left or right array already comes sorted by previous iteration in the main fn.
   while (i < _left.length) {
     result.push(_left[i]);
     i++;

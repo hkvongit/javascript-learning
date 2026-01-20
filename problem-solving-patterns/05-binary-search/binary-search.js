@@ -1,5 +1,5 @@
 /*
-- Binary Search is an efficient algorithm for finding a target value within a sorted array by repeatedly dividing the search interval in half. It compares the target to the middle element and eliminates half of the remaining elements based on whether the target is smaller or larger.
+- Binary Search is an efficient algorithm for finding a target value within a *sorted* array by repeatedly dividing the search interval in half. It compares the target to the middle element and eliminates half of the remaining elements based on whether the target is smaller or larger.
 
 - source of learning: https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/lecture/11162784#overview
 

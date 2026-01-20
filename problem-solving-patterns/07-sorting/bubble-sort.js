@@ -10,14 +10,14 @@ BUBBLE SORT
 // declare main function with array of number as the argument
 function main(arr) {
   // start a loop in which "i" decrements from len -1 to 0
-  for (i = arr.length - 1; i >= 0; i--) {
+  for (let i = arr.length - 1; i >= 0; i--) {
     // flag for checking any swap made in this iteration, if no swaps are made that means it is already sorted and further traversing is not required.
     let isSwapOccurred = false;
     // start a inner loop for "j: increments towards "i"
-    for (j = 0; j < i; j++) {
+    for (let j = 0; j < i; j++) {
       // compare j -th element and j+1 -th elements and swap if j-th element is larger than the j+1 -th element.
       if (arr[j] > arr[j + 1]) {
-        temp = arr[j];
+        let temp = arr[j];
         arr[j] = arr[j + 1];
         arr[j + 1] = temp;
         isSwapOccurred = true;

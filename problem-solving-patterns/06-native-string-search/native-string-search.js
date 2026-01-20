@@ -21,8 +21,8 @@ function main(_largeString, _shortString) {
   // declare repeatitionCount = 0
   let repeatitionCount = 0;
   // loop on longer string
-  for (i = 0; i < _largeStringCaseCorrected.length; i++) {
-    tempI = i;
+  for (let i = 0; i < _largeStringCaseCorrected.length; i++) {
+    let tempI = i;
     /*
     we can avoid such an temp variable by improving the logic as explained by colt steele in this video: https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/learn/lecture/11162778#overview
     logic will be 
@@ -34,7 +34,7 @@ function main(_largeString, _shortString) {
     }
     */
     // loop on shorter string
-    for (j = 0; j < _shortStringCaseCorrected.length; j++) {
+    for (let j = 0; j < _shortStringCaseCorrected.length; j++) {
       // Check if character matches btw longers and shorter string
       // if any does not match stop the inner loop of shorter string
       if (_largeStringCaseCorrected[i] !== _shortStringCaseCorrected[j]) {
