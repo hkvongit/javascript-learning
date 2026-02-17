@@ -23,7 +23,7 @@
       "request": "launch",
       "name": "current-file",
       "args": [],
-      "program": "${workspaceFolder}/leetcode/two-sums/two-sum-2.js"
+      "program": "${workspaceFolder}/leetcode/valid-parentheses/valid-parentheses.js"
     },
     {
       "type": "node",
@@ -32,5 +32,15 @@
       "args": [],
       "program": "${workspaceFolder}/any-test-code.js"
     },
+    {
+      "type": "node", // Specifies that we are using the Node.js debugger
+      "request": "launch", // Indicates that we want to launch a new process
+      "name": "Run Active File", // The name that will appear in the Run and Debug dropdown menu
+      "program": "${file}", // Dynamically points to the absolute path of the file currently open in the editor
+      "console": "integratedTerminal", // Ensures the output is displayed in the integrated terminal
+      "skipFiles": [ // Optional: Defines files to skip during debugging sessions
+        "<node_internals>/**" // Skips internal Node.js source files for easier debugging
+      ] // End of the skipFiles array
+    } // End of the configuration object
   ]
 }

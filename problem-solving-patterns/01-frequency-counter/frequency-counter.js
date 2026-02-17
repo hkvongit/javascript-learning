@@ -6,7 +6,7 @@ PROBLEM STATEMENT:
 */
 
 const generateFreqObj = (arr) => {
-  freqObj = {};
+  let freqObj = {};
   for (const element of arr) {
     freqObj[element] = (freqObj[element] || 0) + 1;
   }
@@ -22,7 +22,7 @@ const main = (arr1, arr2) => {
   const freq2 = generateFreqObj(arr2);
   console.log("🚀 ~ file: frequency-counter.js:18 ~ main ~ freq2:", freq2);
 
-  for (key in freq1) {
+  for (let key in freq1) {
     if (!(key ** 2 in freq2)) {
       return false;
     }
@@ -33,8 +33,8 @@ const main = (arr1, arr2) => {
   return true;
 };
 
-arrA1 = [1, 2, 2, 4, 5, 5];
-arrA2 = [1, 4, 4, 25, 16, 25];
+let arrA1 = [1, 2, 2, 4, 5, 5];
+let arrA2 = [1, 4, 4, 25, 16, 25];
 if (main(arrA1, arrA2)) {
   console.log("YuP");
 } else {

@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "workbench.colorTheme": "Default Dark+",
   //
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
@@ -8,6 +8,7 @@
   },
   "eslint.validate": ["javascript"],
   "eslint.enable": true,
-  "livePreview.defaultPreviewPath": "/main.html"
+  "livePreview.defaultPreviewPath": "/main.html",
+  "editor.tabSize": 2
   //
 }
